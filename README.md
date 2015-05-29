@@ -2,7 +2,8 @@
 
 This are my Sublime Text 3 Settings, not perfect but I'm working on this, here are some of the features:
 
-## How to use this
+## Configuration
+#### This need to be tested
 
 Enter your settings folder:
 `cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
