@@ -22,10 +22,10 @@ Pull!
 
 ## Shortcuts
 
-`super+shift+c`     ==>     toggle_comment
-`super+alt+s`       ==>     surround_selection
-`super+alt+r`       ==>     surround_change
-`super+shift+r`     ==>     expand_selection_to_paragraph
+`super+shift+c`     ==>     toggle_comment <br>
+`super+alt+s`       ==>     surround_selection <br>
+`super+alt+r`       ==>     surround_change <br>
+`super+shift+r`     ==>     expand_selection_to_paragraph <br>
 
 ## Snippets
 
