@@ -2,6 +2,24 @@
 
 This are my Sublime Text 3 Settings, not perfect but I'm working on this, here are some of the features:
 
+## How to use this
+
+Enter your settings folder:
+`cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
+
+Remove all the content in that folder:
+`rm -rf ./*` **Note** _All your settings will be lost_
+
+Start a new repsitory:
+`git init`
+
+Add this repo as remote:
+`git remote add origin git@github.com:teone/sublime-settings.git`
+
+Pull!
+`git pull origin master`
+
+
 ## Shortcuts
 
 `super+shift+c`     ==>     toggle_comment
