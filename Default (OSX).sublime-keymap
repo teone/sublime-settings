@@ -1,0 +1,6 @@
+[
+	{"keys": ["super+shift+c"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["super+alt+s"], "command": "surround_selection" },
+    { "keys": ["super+alt+r"], "command": "surround_change" },
+    { "keys": ["super+shift+r"], "command": "expand_selection_to_paragraph" }
+]
