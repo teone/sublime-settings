@@ -3,19 +3,22 @@
 This are my Sublime Text 3 Settings, not perfect but I'm working on this, here are some of the features:
 
 ## Configuration
-#### This need to be tested
+
 
 Enter your settings folder:
 `cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
 
 Remove all the content in that folder:
-`rm -rf ./*` **Note** _All your settings will be lost_
+`rm -rf ./*` **Note** _All your settings will be lost, this is the best options if you have nothing to loose_
 
 Start a new repsitory:
 `git init`
 
 Add this repo as remote:
 `git remote add origin git@github.com:teone/sublime-settings.git`
+
+**If you have not cleare your folder**
+`git stash`
 
 Pull!
 `git pull origin master`
