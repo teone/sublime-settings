@@ -50,6 +50,8 @@ subli[DocBlockr](https://github.com/spadgos/sublime-jsdocs),
 `super+alt+s`       ==>     surround_selection <br>
 `super+alt+r`       ==>     surround_change <br>
 `super+shift+r`     ==>     expand_selection_to_paragraph <br>
+`super+l`           ==>     lint tags
+`super+ctrl+i`      ==>     indent tag in document
 
 ## Snippets
 
@@ -89,4 +91,14 @@ Just start tiping `ngdocs` for all the possibilities
 - ES6 promise Snippet
 - Angular Controller | Services | Directive Snippets
 - Promise Catch Snippet
+
+## Helpers 
+
+Start logging:
+`sublime.log_commands(True)`
+`sublime.log_input(True)`
+
+Stop logging: 
+`sublime.log_commands(False)`
+`sublime.log_input(False)`
 
