@@ -9,7 +9,7 @@ Enter your settings folder:
 `cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
 
 Remove all the content in that folder:
-`rm -rf ./*` **Note** _All your settings will be lost, this is the best options if you have nothing to loose_
+`rm -rf ./*` **Note** _All your settings will be lost, this is the best options if you have nothing to loose, otherwise skip this_
 
 Start a new repsitory:
 `git init`
@@ -17,12 +17,32 @@ Start a new repsitory:
 Add this repo as remote:
 `git remote add origin git@github.com:teone/sublime-settings.git`
 
-**If you have not cleare your folder**
-`git stash`
+**If you have not cleared your folder**
+`git add .`
+`git commit -m "My Config"`
 
 Pull!
 `git pull origin master`
 
+Resolve eventual conflicts
+
+## Installed Packages
+
+[All Autocomplete](https://github.com/alienhard/SublimeAllAutocomplete),
+[AutoFileName](https://github.com/BoundInCode/AutoFileName),
+[Babel](https://github.com/babel/babel-sublime),
+subli[DocBlockr](https://github.com/spadgos/sublime-jsdocs),
+[Emmet](https://github.com/sergeche/emmet-sublime),
+[Git](https://github.com/kemayo/sublime-text-git),
+[GitGutter](https://github.com/jisaacks/GitGutter),
+[MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing),
+[Package Control](https://packagecontrol.io/),
+[SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3),
+[SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint),
+[SublimeLinter-contrib-tslint](https://github.com/lavrton/SublimeLinter-contrib-tslint),
+[SublimeLinter-jshint](https://github.com/devdoc/SublimeLinter-jslint),
+[Surround](https://github.com/jcartledge/sublime-surround),
+[Tag](https://github.com/titoBouzout/Tag)"
 
 ## Shortcuts
 
@@ -39,51 +59,29 @@ Any of this come with the ES2015/ES6 version.
 
 `pr` | `pr6`
 
-```javascript
-.then(function(res){
-    console.log(res);
-    $scope.res = res;
-})
-.catch(function(err){
-    console.warn(err);
-    $scope.err = err;
-})
-.finally(function(){
-    // do something
-    $scope.loader = false;
-});
-```
-
-
 `then` | `then6`
-
-```javascript
-.then(function(res){
-    snippet
-})
-```
 
 ### Callbacks
 
 `cb` | `cb6`
 
-```javascript
-function(res){
-    console.log(res)
-}
-```
-
 ### Console
 
 `clog`
 
-```javascript
-console.log(var);
-```
-
 ### ngDocs
 
 Just start tiping `ngdocs` for all the possibilities
+
+### BDD
+
+`desc`
+
+`it`
+
+`be`
+
+`expect`
 
 ### Nice to Have
 
