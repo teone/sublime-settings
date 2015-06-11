@@ -1,0 +1,17 @@
+<snippet>
+    <content>
+/**
+     * @ngdoc method
+     * @name ${1:module}.directive#${2:methodName}
+     * @methodOf ${1:module}.directive
+     * @description
+     * ${3:Method.description}
+     * @param {${4:type}} parameter description
+     * @returns {${5:string}} 
+**/
+</content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ngdocs-directive-method</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

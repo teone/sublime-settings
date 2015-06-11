@@ -1,11 +1,15 @@
 <snippet>
-    <content><![CDATA[
-.then(function(${1:res}){
-    ${2:snippet}
-})
-]]></content>
+    <content>/**
+ * @ngdoc overview
+ * @name ${1:name}
+ * @module
+ * @description
+ *
+ * ${2:description}
+ *
+ */</content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>then</tabTrigger>
+    <tabTrigger>ng-overview</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>

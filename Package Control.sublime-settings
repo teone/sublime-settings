@@ -6,12 +6,14 @@
 	[
 		"AutoFileName",
 		"Babel",
+		"Better TypeScript",
 		"DocBlockr",
 		"Emmet",
 		"MarkdownEditing",
 		"Package Control",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-tslint",
 		"SublimeLinter-jshint",
 		"Surround"
 	]
