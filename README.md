@@ -27,21 +27,21 @@ Resolve eventual conflicts
 
 ## Installed Packages
 
-[All Autocomplete](https://github.com/alienhard/SublimeAllAutocomplete),
-[AutoFileName](https://github.com/BoundInCode/AutoFileName),
-[Babel](https://github.com/babel/babel-sublime),
-subli[DocBlockr](https://github.com/spadgos/sublime-jsdocs),
-[Emmet](https://github.com/sergeche/emmet-sublime),
-[Git](https://github.com/kemayo/sublime-text-git),
-[GitGutter](https://github.com/jisaacks/GitGutter),
-[MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing),
-[Package Control](https://packagecontrol.io/),
-[SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3),
-[SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint),
-[SublimeLinter-contrib-tslint](https://github.com/lavrton/SublimeLinter-contrib-tslint),
-[SublimeLinter-jshint](https://github.com/devdoc/SublimeLinter-jslint),
-[Surround](https://github.com/jcartledge/sublime-surround),
-[Tag](https://github.com/titoBouzout/Tag)"
+- [All Autocomplete](https://github.com/alienhard/SublimeAllAutocomplete),
+- [AutoFileName](https://github.com/BoundInCode/AutoFileName),
+- [Babel](https://github.com/babel/babel-sublime),
+- [DocBlockr](https://github.com/spadgos/sublime-jsdocs),
+- [Emmet](https://github.com/sergeche/emmet-sublime),
+- [Git](https://github.com/kemayo/sublime-text-git),
+- [GitGutter](https://github.com/jisaacks/GitGutter),
+- [MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing),
+- [Package Control](https://packagecontrol.io/),
+- [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3),
+- [SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint),
+- [SublimeLinter-contrib-tslint](https://github.com/lavrton/SublimeLinter-contrib-tslint),
+- [SublimeLinter-jshint](https://github.com/devdoc/SublimeLinter-jslint),
+- [Surround](https://github.com/jcartledge/sublime-surround),
+- [Tag](https://github.com/titoBouzout/Tag)"
 
 ## Shortcuts
 
