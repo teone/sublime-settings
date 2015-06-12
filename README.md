@@ -45,14 +45,14 @@ Resolve eventual conflicts
 
 ## Shortcuts
 
-`super+shift+c`     ==>     toggle_comment <br>
-`super+alt+s`       ==>     surround_selection <br>
-`super+alt+r`       ==>     surround_change <br>
-`super+shift+r`     ==>     expand_selection_to_paragraph <br>
-`super+l`           ==>     lint tags
-`super+ctrl+i`      ==>     indent tag in document
-`super+shift+alt+o` ==>     todo_review, args: {open_files: true, open_files_only: true}},
-`super+shift+alt+p` ==>     todo_review, args: {open_files: true}}
+- `super+shift+c`     ==>     toggle_comment <br>
+- `super+alt+s`       ==>     surround_selection <br>
+- `super+alt+r`       ==>     surround_change <br>
+- `super+shift+r`     ==>     expand_selection_to_paragraph <br>
+- `super+l`           ==>     lint tags
+- `super+ctrl+i`      ==>     indent tag in document
+- `super+shift+alt+o` ==>     todo_review, args: {open_files: true, open_files_only: true}}
+- `super+shift+alt+p` ==>     todo_review, args: {open_files: true}}
 
 ## Snippets
 
