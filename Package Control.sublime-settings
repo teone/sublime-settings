@@ -19,6 +19,7 @@
 		"SublimeLinter-contrib-tslint",
 		"SublimeLinter-jshint",
 		"Surround",
-		"Tag"
+		"Tag",
+		"TodoReview"
 	]
 }
