@@ -4,7 +4,6 @@ This are my Sublime Text 3 Settings, not perfect but I'm working on this, here a
 
 ## Configuration
 
-
 Enter your settings folder:
 `cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
 
@@ -52,6 +51,8 @@ subli[DocBlockr](https://github.com/spadgos/sublime-jsdocs),
 `super+shift+r`     ==>     expand_selection_to_paragraph <br>
 `super+l`           ==>     lint tags
 `super+ctrl+i`      ==>     indent tag in document
+`super+shift+alt+o` ==>     todo_review, args: {open_files: true, open_files_only: true}},
+`super+shift+alt+p` ==>     todo_review, args: {open_files: true}}
 
 ## Snippets
 
