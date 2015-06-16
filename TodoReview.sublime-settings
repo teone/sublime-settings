@@ -1,0 +1,25 @@
+{
+    "folders": [],
+    "patterns": {
+        "TODO": "TODO[\\s]*[\\s]*(?P<todo>.*)$",
+        "NOTE": "NOTE[\\s]*[\\s]*(?P<note>.*)$",
+        "FIXME": "FIX ?ME[\\s]*[\\s]*(?P<fixme>.*)$",
+        "CHANGED": "CHANGED[\\s]*[\\s]*(?P<changed>.*)$"
+    },
+    "patterns_weight": {
+        "FIXME": 1,
+        "TODO": 2,
+        "CHANGED": 3,
+        "NOTE": 4
+    },
+    "settings": {
+        "todoreview": {
+            "exclude_folders": [
+                "*node_modules*",
+                "*bower_components*",
+                "*dist*",
+                "*.tmp*"
+            ]
+        }
+    }
+}

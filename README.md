@@ -4,12 +4,13 @@ This are my Sublime Text 3 Settings, not perfect but I'm working on this, here a
 
 ## Configuration
 
-
 Enter your settings folder:
-`cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
+Mac: `cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
+
+Linux: `cd ~/.config/sublime-text-3/Packages/User`
 
 Remove all the content in that folder:
-`rm -rf ./*` **Note** _All your settings will be lost, this is the best options if you have nothing to loose_
+`rm -rf ./*` **Note** _All your settings will be lost, this is the best options if you have nothing to loose, otherwise skip this_
 
 Start a new repsitory:
 `git init`
@@ -17,19 +18,45 @@ Start a new repsitory:
 Add this repo as remote:
 `git remote add origin git@github.com:teone/sublime-settings.git`
 
-**If you have not cleare your folder**
-`git stash`
+**If you have not cleared your folder**
+`git add .`
+`git commit -m "My Config"`
 
 Pull!
 `git pull origin master`
 
+Resolve eventual conflicts
+
+## Installed Packages
+
+- [All Autocomplete](https://github.com/alienhard/SublimeAllAutocomplete),
+- [AutoFileName](https://github.com/BoundInCode/AutoFileName),
+- [Babel](https://github.com/babel/babel-sublime),
+- [DocBlockr](https://github.com/spadgos/sublime-jsdocs),
+- [Emmet](https://github.com/sergeche/emmet-sublime),
+- [Git](https://github.com/kemayo/sublime-text-git),
+- [GitGutter](https://github.com/jisaacks/GitGutter),
+- [MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing),
+- [Package Control](https://packagecontrol.io/),
+- [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3),
+- [SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint),
+- [SublimeLinter-contrib-tslint](https://github.com/lavrton/SublimeLinter-contrib-tslint),
+- [SublimeLinter-jshint](https://github.com/devdoc/SublimeLinter-jslint),
+- [Surround](https://github.com/jcartledge/sublime-surround),
+- [Tag](https://github.com/titoBouzout/Tag)"
 
 ## Shortcuts
 
-`super+shift+c`     ==>     toggle_comment <br>
-`super+alt+s`       ==>     surround_selection <br>
-`super+alt+r`       ==>     surround_change <br>
-`super+shift+r`     ==>     expand_selection_to_paragraph <br>
+- `super+shift+c`     ==>     toggle_comment <br>
+- `super+alt+s`       ==>     surround_selection <br>
+- `super+alt+r`       ==>     surround_change <br>
+- `super+shift+r`     ==>     expand_selection_to_paragraph <br>
+- `super+l`           ==>     lint tags
+- `super+ctrl+i`      ==>     indent tag in document
+- `super+shift+alt+o` ==>     todo_review, args: {open_files: true, open_files_only: true}}
+- `super+shift+alt+p` ==>     todo_review, args: {open_files: true}}
+
+**NOTE** _For Linux the shortcuts are a bit different, check in `Default (Linux).sublime-keymap`_
 
 ## Snippets
 
@@ -39,51 +66,29 @@ Any of this come with the ES2015/ES6 version.
 
 `pr` | `pr6`
 
-```javascript
-.then(function(res){
-    console.log(res);
-    $scope.res = res;
-})
-.catch(function(err){
-    console.warn(err);
-    $scope.err = err;
-})
-.finally(function(){
-    // do something
-    $scope.loader = false;
-});
-```
-
-
 `then` | `then6`
-
-```javascript
-.then(function(res){
-    snippet
-})
-```
 
 ### Callbacks
 
 `cb` | `cb6`
 
-```javascript
-function(res){
-    console.log(res)
-}
-```
-
 ### Console
 
 `clog`
 
-```javascript
-console.log(var);
-```
-
 ### ngDocs
 
 Just start tiping `ngdocs` for all the possibilities
+
+### BDD
+
+`desc`
+
+`it`
+
+`be`
+
+`expect`
 
 ### Nice to Have
 
@@ -91,4 +96,14 @@ Just start tiping `ngdocs` for all the possibilities
 - ES6 promise Snippet
 - Angular Controller | Services | Directive Snippets
 - Promise Catch Snippet
+
+## Helpers 
+
+Start logging:
+`sublime.log_commands(True)`
+`sublime.log_input(True)`
+
+Stop logging: 
+`sublime.log_commands(False)`
+`sublime.log_input(False)`
 
