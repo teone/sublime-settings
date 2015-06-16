@@ -1,18 +1,18 @@
 {
-    "in_process_packages":
-    [
-    ],
-    "installed_packages":
-    [
-        "AutoFileName",
-        "Babel",
-        "DocBlockr",
-        "Emmet",
-        "MarkdownEditing",
-        "Package Control",
-        "SublimeLinter",
-        "SublimeLinter-contrib-eslint",
-        "SublimeLinter-jshint",
-        "Surround"
-    ]
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoFileName",
+		"Babel",
+		"DocBlockr",
+		"Emmet",
+		"MarkdownEditing",
+		"Package Control",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-jshint",
+		"Surround"
+	]
 }
