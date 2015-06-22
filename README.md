@@ -5,7 +5,9 @@ This are my Sublime Text 3 Settings, not perfect but I'm working on this, here a
 ## Configuration
 
 Enter your settings folder:
-`cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
+Mac: `cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
+
+Linux: `cd ~/.config/sublime-text-3/Packages/User`
 
 Remove all the content in that folder:
 `rm -rf ./*` **Note** _All your settings will be lost, this is the best options if you have nothing to loose, otherwise skip this_
@@ -53,6 +55,8 @@ Resolve eventual conflicts
 - `super+ctrl+i`      ==>     indent tag in document
 - `super+shift+alt+o` ==>     todo_review, args: {open_files: true, open_files_only: true}}
 - `super+shift+alt+p` ==>     todo_review, args: {open_files: true}}
+
+**NOTE** _For Linux the shortcuts are a bit different, check in `Default (Linux).sublime-keymap`_
 
 ## Snippets
 
