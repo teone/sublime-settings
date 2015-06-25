@@ -12,14 +12,14 @@
         "CHANGED": 3,
         "NOTE": 4
     },
-    "settings": {
-        "todoreview": {
-            "exclude_folders": [
-                "*node_modules*",
-                "*bower_components*",
-                "*dist*",
-                "*.tmp*"
-            ]
-        }
-    }
+    "exclude_folders": [
+        "*.git*",
+        "*node_modules*",
+        "*bower_components*",
+        "*dist*",
+        "*docs*",
+        "*.tmp*",
+        "*babel*",
+        "*lbservices*"
+    ]
 }
