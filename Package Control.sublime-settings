@@ -7,12 +7,10 @@
 		"All Autocomplete",
 		"AutoFileName",
 		"Babel",
-		"Better TypeScript",
 		"DocBlockr",
 		"Emmet",
 		"Git",
 		"Git Conflict Resolver",
-		"GitGutter",
 		"Hooks",
 		"MarkdownEditing",
 		"Package Control",
@@ -22,6 +20,8 @@
 		"SublimeLinter-jshint",
 		"Surround",
 		"Tag",
-		"TodoReview"
+		"TodoReview",
+		"TypeScript",
+		"WakaTime"
 	]
 }
