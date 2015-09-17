@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+/**
+* @ngdoc method
+* @name ${1:moduleName}:${2:controllerName}#${3:methodName}
+* @methodOf ${1:moduleName}:${2:controllerName}
+* @description
+* ${4:description}
+* @param {${5:type}} ${6:name} ${7:paramDescription}
+*/
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ngdocs-controller-method</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

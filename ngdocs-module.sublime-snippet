@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
 /**
-    * @ngdoc overview
-    * @name ${1:ngapp}
-    * @description $3
-    * @requires $4
+* @ngdoc overview
+* @name ${1:ngapp}
+* @description $3
+* @requires $4
 **/
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

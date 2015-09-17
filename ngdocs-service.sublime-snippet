@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
 /**
-	* @ngdoc service
-	* @name ${1:module}.${2:service}
-	* @requires ${3:other}
+* @ngdoc service
+* @name ${1:module}.${2:service}
+* @requires ${3:other}
 **/
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

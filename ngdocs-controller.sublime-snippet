@@ -1,12 +1,10 @@
 <snippet>
 	<content><![CDATA[
 /**
-	* @ngdoc object
-	* @name ${1:ngapp}.controller:${2:NewCtrl}
-	* @description $3
-	* @requires $4
-	* @requires $5
-	* @requires $6
+* @ngdoc object
+* @name ${1:ngapp}.controller:${2:NewCtrl}
+* @description $3
+* @requires $4
 **/
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
