@@ -1,10 +1,18 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-	"font_size": 10,
+	"font_size": 11,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
+	"paths":
+	{
+		"linux":
+		[
+			"/usr/local/bin/jshint"
+		]
+	},
+	"tab_size": 2,
 	"translate_tabs_to_spaces": true
 }
