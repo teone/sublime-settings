@@ -6,5 +6,9 @@
     { "keys": ["super+l"], "command": "tag_lint"},
     { "keys": ["super+ctrl+i"], "command": "tag_indent_document"},
     { "keys": ["super+shift+alt+o"], "command": "todo_review", "args": {"open_files": true, "open_files_only": true}},
-    { "keys": ["super+shift+alt+p"], "command": "todo_review", "args": {"open_files": true}}
+    { "keys": ["super+shift+alt+p"], "command": "todo_review", "args": {"open_files": true}},
+    { "keys": ["ctrl+alt+f"], "command": "find_next_conflict" },
+    { "keys": ["ctrl+alt+o"], "command": "keep", "args": { "keep": "ours" } },
+    { "keys": ["ctrl+alt+t"], "command": "keep", "args": { "keep": "theirs" } },
+    { "keys": ["ctrl+alt+l"], "command": "list_conflict_files" }
 ]

@@ -1,16 +1,16 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-	"font_size": 11,
+	"color_scheme": "Packages/User/SublimeLinter/Solarized (Dark) (SL).tmTheme",
+	"font_size": 10,
 	"ignored_packages":
 	[
-		"Markdown",
-		"Vintage"
+		"Markdown"
 	],
 	"paths":
 	{
 		"linux":
 		[
-			"/usr/local/bin/jshint"
+			"/usr/local/bin/jshint",
+			"/usr/local/bin/eslint"
 		]
 	},
 	"tab_size": 2,

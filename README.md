@@ -55,6 +55,10 @@ Resolve eventual conflicts
 - `super+ctrl+i`      ==>     indent tag in document
 - `super+shift+alt+o` ==>     todo_review, args: {open_files: true, open_files_only: true}}
 - `super+shift+alt+p` ==>     todo_review, args: {open_files: true}}
+- ctrl+alt+f          ==>     find_next_conflict
+- ctrl+alt+o          ==>     keep ours
+- ctrl+alt+t          ==>     keep theirs
+- ctrl+alt+l          ==>     list_conflict_files
 
 **NOTE** _For Linux the shortcuts are a bit different, check in `Default (Linux).sublime-keymap`_
 
