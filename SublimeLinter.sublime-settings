@@ -1,8 +1,8 @@
 {
 	"user":
 	{
-		"@disable": true,
-		"debug": false,
+		"@disable": false,
+		"debug": true,
 		"delay": 0.25,
 		"error_color": "D02000",
 		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
@@ -14,7 +14,7 @@
 		{
 			"eslint":
 			{
-				"@disable": true,
+				"@disable": false,
 				"args":
 				[
 				],
@@ -62,7 +62,6 @@
 		{
 			"linux":
 			[
-				"/usr/local/lib/node_modules/jshint/bin"
 			],
 			"osx":
 			[
