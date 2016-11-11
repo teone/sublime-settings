@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-.then(function(${1:res}){
-  ${2:snippet}
+.catch((${1:err}) => {
+  console.warn(${2:err});
 })
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>then</tabTrigger>
+    <tabTrigger>catch6</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>

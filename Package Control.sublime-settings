@@ -6,8 +6,11 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"API Blueprint",
 		"AutoFileName",
 		"Babel",
+		"Better CoffeeScript",
+		"Coffee Color Scheme",
 		"DocBlockr",
 		"Emmet",
 		"Git",
@@ -18,9 +21,11 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-tslint",
-		"SublimeLinter-jshint",
+		"SublimeLinter-pep8",
 		"Surround",
 		"Tag",
-		"WakaTime"
+		"TypeScript",
+		"WakaTime",
+		"Yang Syntax Highlighting"
 	]
 }

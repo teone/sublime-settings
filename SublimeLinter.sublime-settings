@@ -12,6 +12,16 @@
 		"lint_mode": "background",
 		"linters":
 		{
+			"apiblueprint":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
 			"eslint":
 			{
 				"@disable": false,
@@ -31,6 +41,19 @@
 				"excludes":
 				[
 				]
+			},
+			"pep8":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"ignore": "",
+				"max-line-length": 120,
+				"select": ""
 			},
 			"tslint":
 			{
